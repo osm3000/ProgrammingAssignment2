@@ -1,9 +1,9 @@
-# The first function, makeMatrix creates a special "matrix", which is really a list containing a function to
+# The first function, makeCacheMatrix creates a special "matrix", which is really a list containing a function to
 # set the value of the matrix
 # get the value of the matrix
 # set the value of the inverse of the matrix
 # get the value of the inverse of the matrix
-makeMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y = matrix()) {
                 x <<- y
